@@ -1,6 +1,20 @@
 class SpiceShop{
 
-static String spices[]={"Turmeric","Cumin","Coriander","Black Pepper","Red Chiili Powder","Mustard Seeds","Fenugreek Seeds","Cardamom","Cinnamom","Cloves","Asafoetida","Bay Leaf","Carom Seeds","Ginger Paste"};
+static String turmeric="Turmeric";
+static String cumin="Cumin";
+static String coriander="Coriander";
+static String blackPepper="Black Pepper";
+static String redChilliPowder="Red Chilli Powder";
+static String mustardSeeds="Mustard Seeds";
+static String fenugreekSeeds="Fenugreek Seeds";
+static String cardamom="Cardamom";
+static String cloves="Cloves";
+static String asafoetida="Asafoetida";
+static String bayLeaf="Bay Leaf";
+static String caromSeeds="Carom Seeds";
+static String cinnamom="Cinnamom";
+static String gingerPaste="Ginger Paste";
+static String spices[]={turmeric,cumin,coriander,blackPepper,redChilliPowder,mustardSeeds,fenugreekSeeds,cardamom,cinnamom,cloves,asafoetida,bayLeaf,caromSeeds,gingerPaste};
 public static void main(String[] indianspices){
 
 System.out.println("main started");
