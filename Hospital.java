@@ -1,22 +1,39 @@
-class Hospital {
-  static int hospitalId = 1;
-  static String hospitalName = "Apollo Hospitals";
-  static String type = "Multi Speciality";
-  static int noOfFloors = 12;
-  static String address = "Rajajinagar";
-	 
-  public static void main(String hospital[]){
-	// int hospitalId = 1;
-    // String hospitalName = "Apollo Hospitals";
-    // String type = "Multi Speciality";
-    // int noOfFloors = 12;
-    // String address = "Rajajinagar";
-   
-		 
-	 System.out.println("Hospital id is "+hospitalId);
-	 System.out.println("Hospital name is "+hospitalName);
-	 System.out.println("Hospital type is "+type);
-	 System.out.println("No of floors in hospital is "+noOfFloors);
-	 System.out.println("Address of the hospital is "+address);
-	 }
- }
+class Hospital{
+/*static String himakara="Dr.Himakara";
+static String bhanumati="Dr.Bhanumati";
+static String haraprasad="Dr.Haraprasad";
+static String archana="Dr.Archana";
+static String shankar="Dr.Shankar";
+static String rajaram="Dr.Rajaram";
+static String raghurama="Dr.Raghurama";
+static String jyotiRPrasad="Dr.Jyoti R Prasad";
+static String chidananda="Dr.Chidananda";
+static String renukaPrasad="Dr.Renuka Prasad";
+
+static String doctorNames[]={himakara,bhanumati,haraprasad,archana,shankar,rajaram,raghurama,jyotiRPrasad,chidananda,renukaPrasad};*/
+
+public static void main(String[] names){
+System.out.println("main started");
+String himakara="Dr.Himakara";
+String bhanumati="Dr.Bhanumati";
+String haraprasad="Dr.Haraprasad";
+String archana="Dr.Archana";
+String shankar="Dr.Shankar";
+String rajaram="Dr.Rajaram";
+String raghurama="Dr.Raghurama";
+String jyotiRPrasad="Dr.Jyoti R Prasad";
+String chidananda="Dr.Chidananda";
+String renukaPrasad="Dr.Renuka Prasad";
+
+String doctorNames[]={himakara,bhanumati,haraprasad,archana,shankar,rajaram,raghurama,jyotiRPrasad,chidananda,renukaPrasad};
+//System.out.println("Doctors names are "+doctorNames.length);
+//System.out.println(doctorNames[0]+" "+doctorNames[1]+" "+doctorNames[2]+" "+doctorNames[3]+" "+doctorNames[4]+" "+doctorNames[5]+" "+doctorNames[6]+" "+doctorNames[7]+" "+doctorNames[8]+" "+doctorNames[9]);
+System.out.println("Doctors names are");
+for(String doctorName:doctorNames)
+{
+	System.out.println(doctorName);
+}
+
+System.out.println("main ended");
+}
+}
